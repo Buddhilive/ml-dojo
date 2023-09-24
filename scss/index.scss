@@ -1,4 +1,19 @@
-html, body {
-    margin: 0;
-    padding: 0;
+.sketch-pad {
+    height: calc(100vh - 110px);
+    margin: 0 auto;
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    &.show {
+        visibility: visible;
+    }
+    &__canvas {
+        background-color: #fff;
+        border: 1px solid #ccc;
+    }
 }
