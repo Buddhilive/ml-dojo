@@ -1,0 +1,25 @@
+{
+  "name": "ml-dojo",
+  "version": "0.0.1",
+  "description": "Learn ML from scratch in JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "npm --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Buddhilive/ml-dojo.git"
+  },
+  "keywords": [
+    "machine learning",
+    "ml",
+    "javascript"
+  ],
+  "author": "Buddhi Kavindra",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Buddhilive/ml-dojo/issues"
+  },
+  "homepage": "https://github.com/Buddhilive/ml-dojo#readme"
+}

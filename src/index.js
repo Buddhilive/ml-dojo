@@ -1,0 +1,1 @@
+console.log("Namo Buddhaya!");
